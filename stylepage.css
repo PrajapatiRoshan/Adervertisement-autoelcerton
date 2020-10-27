@@ -1,0 +1,53 @@
+nav{
+        background-color: rgba(245, 245, 245, 0.904);
+        border:5px solid rgba(245, 245, 245, 0.904);
+        margin:0;
+        padding: 0;
+}
+a{
+        text-decoration:none;
+        color:black;
+}
+a:hover{
+        background: wheat;
+        color:brown;
+        padding:8px;
+}
+img{
+        display: inline;
+        border:8px solid whitesmoke;
+        border-collapse: collapse;
+        width: auto;
+        height:auto;
+        opacity: 0.8;
+}
+img:hover{
+        opacity: 1;
+}
+.box{
+        border-collapse: collapse;
+        border: 10px solid whitesmoke;
+        border-left:0;
+}
+.save{
+        color:red;
+}
+.move{  padding-left:20px;      }
+button {
+        background-color:rgb(241, 24, 24);
+        color: white;
+        padding: 14px 20px;
+        margin: 3px 50px;
+        border: none;
+        cursor: pointer;
+        width: 60%;
+        opacity: 0.6;
+        font-size:15pt;
+        text-align: center;
+}
+button:hover {
+        opacity:1;
+      }
+table{
+        width: 100%;
+}
